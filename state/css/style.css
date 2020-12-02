@@ -1,0 +1,352 @@
+.text-standard{
+          color: #695097;
+}
+.bg-footer{
+          background-color: #302D2D;
+          color: white;
+}
+.bg-standard{
+          background-color: #695097;
+          color: white;
+}
+.btn-black{
+          background-color: black;
+          color: white;
+}
+.div-anim, .div-anim2{
+       transition: all ease-in 0.6s;   
+}
+.div-anim:hover{
+          transform: skewY(20deg);
+          background-color: #695097;
+          color: white;
+}
+.div-anim2:hover{
+          transform: translate3d(-12px,12px,12px);
+          background-color: #695097;
+          color: white;
+}
+.footerDiv{
+          background-image: url("./img/Bg\ 2.png");
+          background-size: cover;
+          background-position: center center;
+          color: white;
+         
+}
+.card-img-top{
+          height: 270px;
+          width: 100%;
+
+}
+.bg-black{
+          background-color: black;
+          color: white;}
+.bg-white{
+          background-color: white;
+          color: #695097
+}
+.bg-black::placeholder{
+          color: white
+}
+.btn-anim{
+          color: #695097;
+          background-color: white;
+          transition: all ease 1.2s; 
+}
+.btn-anim:hover{
+          background-color: #695097;
+          color: white;
+          transform: scale(1.1);
+}
+.btn-anim2{
+          color: #695097;
+          background-color: white;
+          transition: all ease 1.2s; 
+}
+.btn-anim2:hover{
+          background-color: #695097;
+          color: white;
+          transform: scale(1.1);
+          border: white 2px solid
+}
+.mom{
+          background-image: url("./img/Bg 1.png");
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 30px;
+          justify-content: space-between;
+}
+.mom .left{
+    width: 50%;
+padding-top: 100px;
+}
+.mom .left h1{
+    font-size: 50px;
+    color: #fff;
+}
+.mom .left button{
+    width: 150px;
+    font-size: 15px;
+    padding: 10px;
+}
+.mom .right{
+    width: 40%;
+}
+.mom .right img{
+    width: 100%;
+}
+.about{
+    padding: 50px 30px;
+}
+.about .mom2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about .mom2 .rok{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 32%;
+}
+.about .mom2 .col-md-4 img{
+    width: 100px;
+}
+.map{
+    width: 100%;
+    height: auto;
+}
+.b{
+    margin: 30px 0;
+    background: #695097;
+    text-align: center;
+    padding: 30px 10px;
+}
+.b input{
+    width: 90%;
+    background: #3A3939;
+    border-radius: 19px;
+    border: none;
+    height: 50px;
+    margin: 10px;
+    outline: none;
+    color: #fff;
+    padding: 0 10px;
+}
+.b input::placeholder{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border: 1px solid black;
+  }
+  th{
+    font-size: 25px;
+    border: 1px solid #000;
+  }
+  td, th {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd88;
+  }
+.searchbar{
+          border-radius: 15vh;
+}
+#hero-cont{
+          display: grid;
+          grid-template-rows: repeat(3,1fr);
+
+}
+#heroInner{
+          grid-row: 1/-1;
+}
+#heroI{
+          display: grid;
+          grid-template-rows: repeat(3,1fr)
+}
+#hero-img{
+          grid-row: 1/-1;
+}
+.a{
+    padding: 50px 20px;
+    background: #695097;
+    text-align: center;
+}
+.a .tex {
+    color: #fff;
+    font-size: 25px;
+}
+.a .mom3{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.a .mom3 a{
+    width: 11%;
+    margin-top: 10px;
+}
+.a a button{
+    width: 100%;
+    border: none;
+    background: rgb(255, 255, 255);
+    color: #3A3939;
+    padding: 15px 10px;
+    font-size: 20px;
+}
+.a a button:hover{
+    border: 2px solid white;
+    color: white;
+    background: none;
+}
+@media only screen and (max-width:1000px){
+.mom .left, .mom .right{
+    width: 100%;
+}
+.about .mom2 .col-md-4{
+    width: 50%;
+}
+.about .mom2 .rok{
+    width: 49%;
+}
+}
+@media only screen and (max-width:766px){
+          #nav-icon{
+                    width:110px;
+                    height: 20px;
+          }
+          .hero-text{
+                    font-size:7px;
+          }
+          .btn-text{
+                    font-size: 9px;
+          }
+          #hero-img{
+                    height:auto;
+                    width: 100%;
+          }
+          
+
+}
+@media only screen and (max-width:700px){
+          #nav-icon{
+                    width:110px;
+                    height: 20px;
+          }
+          .hero-text{
+                    font-size:30px;
+          }
+          .btn-text{
+                    font-size: 10px;
+          }
+          #hero-img{
+                    height:30rem;
+                    width: 100%;
+                   
+          }
+          
+          .about .mom2 .rok{
+            width: 100%;
+        }
+        .a .mom3 a{
+            width: 16%;
+        }
+        th{
+            font-size: 12px;
+        }
+        td{
+            font-size: 10px;
+        }
+        .b{
+            padding: 20px 0;
+        }
+         
+
+}
+@media only screen and (min-width:700px){
+          .hero-text{
+                    font-size: 40px;
+          }
+          .btn-text{
+                    font-size: 10px;
+          }
+}
+
+@media only screen and (max-width:500px){
+    .about {
+        padding: 50px 10px;
+    }
+    .map{
+        height: 450px;
+    }
+    .a .mom3 a{
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width:450px){
+          #nav-icon{
+                    width:200px;
+                    height: 35px;
+          }
+          
+          .hero-text{
+                    font-size: 10px;
+          }
+          .btn-text{
+                    font-size: 10px;
+          }
+          #hero-img{
+                    width: 100%;
+                    height: auto;
+                }
+        .mom .left{
+            padding-top: 20px;
+        }
+        .mom .left h1{
+            font-size: 35px;
+        }
+        .mom{
+            padding: 0 10px;
+        }
+        .a .mom3 a{
+            width: 31%;
+        }
+
+}
+
+
+@media only screen and (max-width:333px){
+          #nav-icon{
+                    width:110px;
+                    height: 20px;
+          }
+          .hero-text{
+                    font-size:7px;
+          }
+          .btn-text{
+                    font-size: 10px;
+          }
+          #hero-img{
+              width: 100%;
+              height: 30rem;
+          }
+
+}
+
+         
+
